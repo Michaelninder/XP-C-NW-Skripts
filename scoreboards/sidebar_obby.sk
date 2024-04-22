@@ -1,0 +1,12 @@
+every 1 second:
+  loop all players:
+    wipe loop-player's sidebar_lobby
+    set name of sidebar_lobby of loop-player to "&d&lMainlobby"
+    set score "&6Player" in sidebar of loop-player to 8
+    set score "  &cRank &8- %loop-player's prefix%" in sidebar_lobby of loop-player to 7
+    set score "  &cName &8- &f%loop-player%" in sidebar_lobby of loop-player to 6
+    set score "  &cBalance &8- &fComing Soon!" in sidebar_lobby of loop-player to 5
+    set score "&b&lSERVER" in sidebar of loop-player to 4
+    set score "  &cJoins &8- &f%size of offline players%" in sidebar_lobby of loop-player to 3
+    set score "  &cOnline &8- &f%number of players%" in sidebar_lobby of loop-player to 2
+    set score "  &cMichaelninder &8>> &fdon't know" in sidebar_lobby of loop-player to 1
