@@ -10,3 +10,22 @@ every 1 second:
     set score "  &cJoins &8- &f%size of offline players%" in sidebar_lobby of loop-player to 3
     set score "  &cOnline &8- &f%number of players%" in sidebar_lobby of loop-player to 2
     set score "  &cMichaelninder &8>> &fdon't know" in sidebar_lobby of loop-player to 1
+if world of player is "spawn":
+every 2 second:
+    loop all players:
+        wipe loop-player's sidebar
+        set name of sidebar of loop-player to "&8&L[&c&LTestNetwork&8&L]"
+        set score " &8&m------------------------------" in sidebar of loop-player to 16
+        set score " &7Welcome to the &c&LTestNetwork!" in sidebar of loop-player to 15
+        set score "         &8&L[&c%loop-player%&8&L]" in sidebar of loop-player to 14
+        set score "   &8| &7Buy ranks on our store at: &8|" in sidebar of loop-player to 13
+        set score "           &7| &8www.testmc.net &7|" in sidebar of loop-player to 12
+        set score "    &c&LPlay Games On Our Network!" in sidebar of loop-player to 11
+        set score "      &c&LOr Relax In The Afk Lobby!" in sidebar of loop-player to 10
+        set score "               &8| &7SkyWars &8|" in sidebar of loop-player to 9
+        set score "               &8| &7SkyBlock &8|" in sidebar of loop-player to 8
+        set score "               &8| &7Duels &8|" in sidebar of loop-player to 7
+        set score "               &8| &7TheBridge &8|" in sidebar of loop-player to 6
+        set score "               &8| &7BedWars &8|" in sidebar of loop-player to 5
+        set score "               &8www.spigotmc.net " in sidebar of loop-player to 3
+        set score " &c&m------------------------------" in sidebar of loop-player to 2
